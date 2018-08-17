@@ -2115,7 +2115,7 @@ body.menu-is-open {
 .home-content h1 {
   font-family: 'Shadows Into Light',"Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 17rem;
+  font-size: 15rem;
   line-height: 1;
   letter-spacing: -.02em;
   color: #FFFFFF;
@@ -2151,7 +2151,7 @@ body.menu-is-open {
  * ------------------------------------------------------------------- */
 .home-content__video {
   display: inline-block;
-  margin-top: 4.2rem;
+  margin-top: 4.0rem;
 }
 
 .home-content__video .video-link {
