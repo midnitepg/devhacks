@@ -1420,7 +1420,7 @@ body.menu-is-open {
 .display-1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 4.6rem;
+  font-size: 3.0rem;
   line-height: 1.5;
   letter-spacing: -0.03rem;
   margin-top: 0;
@@ -1430,7 +1430,7 @@ body.menu-is-open {
 .subhead {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   line-height: 1.333;
   text-transform: uppercase;
   letter-spacing: .25rem;
@@ -1751,7 +1751,7 @@ body.menu-is-open {
   -webkit-backface-visibility: hidden;
 }
 
-.header-nav__content {
+.header-nav__content {  
   position: relative;
   max-width: 300px;
 }
@@ -2113,9 +2113,9 @@ body.menu-is-open {
 }
 
 .home-content h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 18rem;
+  font-family: 'Shadows Into Light',"Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 17rem;
   line-height: 1;
   letter-spacing: -.02em;
   color: #FFFFFF;
@@ -2132,7 +2132,15 @@ body.menu-is-open {
   font-style: normal;
   color: #9c9c9c;
 }
-
+.home-content h4{
+  margin-top: 1.2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3.0rem;
+  line-height: 1.342;
+  font-style: normal;
+  color: #9c9c9c;
+}
 .home-content__main {
   position: relative;
   text-align: center;
@@ -2460,7 +2468,9 @@ html.no-csstransitions .home-content__main {
   .home-content h3 {
     font-size: 3.7rem;
   }
-
+  .home-content h4{
+    font-size:3.0rem;
+  }
 }
 
 @media only screen and (max-width:1400px) {
@@ -2470,6 +2480,9 @@ html.no-csstransitions .home-content__main {
 
   .home-content h3 {
     font-size: 3.6rem;
+  }
+  .home-content h4{
+    font-size:2.9rem;
   }
 
   .home-content__video .video-icon {
@@ -3603,7 +3616,7 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 16.2rem;
   padding-bottom: 21rem;
-  background-color: #5e3080;
+  background-color: #0f0101;/*#5e3080;*/
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   position: relative;
@@ -3626,7 +3639,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .subhead {
-  color: #2a1538;
+  color: #793ea5;
 }
 
 .s-contact .section-header,
@@ -3650,13 +3663,19 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-email a {
-  font-size: 9rem;
+  font-size: 6rem;
   font-weight: 700;
   line-height: 1.2;
   color: #FFFFFF;
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
-
+.contact-email span {
+  font-size: 9rem;
+  font-weight: 600;
+  line-height: 1.0;
+  color: #39FF14;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
 .contact-email a:hover,
 .contact-email a:focus {
   border-bottom: 3px solid rgba(255, 255, 255, 0.2);
